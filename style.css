@@ -1,12 +1,26 @@
 
+body{
+
+    background-image: url(./mesa.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size:cover;
+
+
+}
+
+
+
 .calculadora{
 
     display: block;
     margin: 0 auto;
-    background-color: #887776;
-    width: 300px;
+    margin-top: 80px;
+    background: linear-gradient(to right, rgb(102, 102, 105), rgb(63, 60, 61));;
+    width: 350px;
     height: 500px;
     border-radius: 25px;
+    border: solid #000 4px;
+    box-shadow: 10px  10px 10px 15px rgb(136, 136, 139);
 }
 
 .calculadora td button{
@@ -15,19 +29,32 @@
     width: 70px;
     height: 70px;
     font-size: 25px;
-    border-radius: 50px;
+    border-radius: 10px;
+    border: solid #000 ;
+    border: 20px;
+    margin: 2px;
+    
 }
+
 
 #resultado{
 
     display: block;
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 80px;
-    width: 300px;
+    font-size: 70px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding: 5px;
+    width: 290px;
     height: 100px;
-    line-height: 100px;
-    background-color: #81f370;
-    border-radius:25px;
-    overflow-y: scroll;
+    
+    background-color: #a5eb9a;
+    border-radius:30px;
+    border: solid #000 ;
+    
 }
+
+
+
